@@ -6,6 +6,6 @@ import org.springframework.boot.runApplication
 @SpringBootApplication
 class NfsApplication
 
-fun main(args: Array<String>) {
-    runApplication<NfsApplication>(*args)
+fun main() {
+    runApplication<NfsApplication>()
 }
